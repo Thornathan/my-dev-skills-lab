@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(148,196,126);
+    width: 400;
+}
+ul {
+    color: orange;
+    text-align: center;
+}
+input {
+    height: 25px;
+    border-color: rgb(148,196,126);
+    border-width: 3px;
+    color: orange;
+}

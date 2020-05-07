@@ -1,24 +1,62 @@
 body {
-    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'PT Sans', sans-serif;
     text-align: center;
     height: 100vh;
     background-color: whitesmoke;
 }
 h1 {
-    display: flex;
+    margin: center;
+    align-content: center;
     align-items: center;
     justify-content: center;
     color: white;
     background-color: rgb(148,196,126);
-    width: 400;
+    width: 400px;
+    font-size: 20px;
+    line-height: 2;
 }
 ul {
     color: orange;
     text-align: center;
 }
 input {
-    height: 25px;
+    line-height: 3;
     border-color: rgb(148,196,126);
+    border-style: solid;
     border-width: 3px;
     color: orange;
+    width: 67%;
+    padding-left: 0;
+}
+#lists {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+#lists li {
+    list-style: none;
+    text-align: left;
+    font-weight: 700;
+}
+#addSkill {
+    line-height: 2.2;
+    font-size: 15px;
+    width: 27%;
+    margin-left: 4%;
+    background-color: white;
+    color: rgb(148,196,126);
+    border-color: rgb(148,196,126);
+    border-style: solid;
+    border-width: 3px;
+}
+
+.removeSkill {
+    background-color: rgb(229, 101, 104);
+    padding: 3px 7px;
+    margin: 6px 5px 6px 0;
+    font-size: 15px;
+    color: white;
 }
